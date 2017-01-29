@@ -1,0 +1,27 @@
+Package: SuperFarmerFarmer
+Title: Pakiet udostępnia zbiór funkcji pozwalający na symulowanie rozgrywki w
+    grę Super Farmer
+Version: 0.0.0.9000
+Authors@R: c(
+          person("Katarzyna", "Pyrtek", email = "kat.pyrtek@gmail.com", role = c("aut")),
+          person("Mateusz", "Siwiec", email = "ms332521@students.mimuw.edu.pl", role = c("cre")))
+Description: Pakiet udostępnia dwie ogólne funkcje: gra i badaj_gre, pozwalające
+    na testowanie zadanych strategii gry w grę Super Farmer. Dodatkowo udostępnia
+    przykładowe strategie gry (część z których nie jest zgodna z zasadami gry i
+    służą tylko do testowania poprawności pakietu).
+Depends:
+    R (>= 3.3.2)
+Encoding: UTF-8
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 5.0.1
+Suggests:
+    testthat,
+    knitr
+Imports:
+    ggplot2,
+    gridExtra,
+    reshape2,
+    rmarkdown,
+    graphics
+VignetteBuilder: knitr
